@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<body bgcolor="#e3fc03">
+	<center>
+	<form method="get" action="submit.html">
+		<table border="5" rules="none" align="center" cellpadding="10px" style="background-color:#03c2fc;">
+			<caption>
+				<strong>Create a basic webpage with at least 10 different HTML tags</strong><br/>
+				<b>
+					Placement Registration Form
+				</b>
+			</caption>
+			<tr><br><br>
+				<th>Surname:</th>
+				<td>
+					<input type="text" name="Surname" size="6px" maxlength="20 " placeholder="Enter Surname" style="height: 20px; width: 120px"; required>
+				</td>
+			</tr>
+			<tr>
+				<th>Lastname:</th>
+				<td>
+					<input type="text" name="Lastname" size="6px" maxlength="15" placeholder="Enter Lastname" style="height: 20px; width: 120px"; required>
+				</td>
+			</tr>
+			<tr>
+				<th>Gender:</th>
+				<td>
+					<input type="radio" name="gender" value="M" required>Male
+					<input type="radio" name="gender" value="F" required>Female
+				</td>
+			</tr>
+			<tr>
+				<th>Roll no:</th>
+				<td>
+					<input type="text" name="Roll no" size="6px" maxlength="10" placeholder="Example 20A81A0597" style="height: 20px; width: 150px"; required>
+				</td>
+			</tr>
+			<tr>
+				<th>Mobile no:</th>
+				<td>
+					<input type="text" name="mobile no" size="6px" maxlength="10" placeholder="Enter Mobile number" style="height: 20px; width: 150px"; required>
+				</td>
+			</tr>
+			<tr>
+				<th>Year:</th>
+				<td>
+					<select>
+						<option value="NONE" selected>NONE</option>
+						<option value="III">III</option>
+						<option value="IV">IV</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<th>Branch:</th>
+				<td>
+					<select>
+						<option value="NONE" selected>NONE</option>
+						<option value="CSE">CSE</option>
+						<option value="ECE">ECE</option>
+						<option value="IT">IT</option>
+						<option value="MECH">MECH</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<th>Job training:</th>
+				<td>
+					<input type="checkbox" name="ck">TCS<br>
+					<input type="checkbox" name="ck">Infosys<br>
+					<input type="checkbox" name="ck">Syntel
+				</td>
+			</tr>
+			<tr>
+				<th colspan="2"><i>Address for communication:</i></th>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<textarea rows="10" cols="50" required></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<center>
+					<input type="submit" name="submit">
+				</center>
+				</td>
+				<td>
+					<center>
+					<input type="reset" name="clear">
+				</center>
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
